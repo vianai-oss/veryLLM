@@ -1,10 +1,10 @@
-# VeryLLM
+# veryLLM
 
-[Try the VeryLLM app](https://veryllm.vercel.app/)
+[Try the veryLLM app](https://veryLLM.vercel.app/)
 
-## Run VeryLLM Locally
+## Run veryLLM Locally
 
-### Start VeryLLM Is True Server
+### Start veryLLM Is True Server
 
 1.  Open a New Terminal
 2.  `python3 -m venv venv`
