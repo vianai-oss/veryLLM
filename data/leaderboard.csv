@@ -1,0 +1,9 @@
+Function,Description,Author,F1 Score
+validator_all_v1,All prediction functions combined (excluding ones marked as ignore),Team,0.6956521739130435
+is_true_entailment_only_answer,Uses the entailment model to predict whether the answer is true or false. Only uses the answer as the hypothesis.,Andrew,0.6428571428571429
+validator_all_v0,All prediction functions combined (excluding ones marked as ignore),Team,0.6428571428571429
+is_true_knowledge_graph,Uses the knowledge graph to predict whether the answer is true or false.,Andrew,0.5945945945945945
+is_true_entailment,Uses the entailment model to predict whether the answer is true or false.,Andrew,0.588235294117647
+is_true_llm,Uses the LLM to predict whether the answer is true or false.,Andrew,0.5714285714285715
+is_true_embedding,Uses the embedding similarity to predict whether the answer is true or false.,Kevin,0.5333333333333333
+is_true_embedding_qa_negated,Uses the embedding similarity to predict whether the answer is true or false. Negates the question and answer.,Kevin,0.3846153846153846
