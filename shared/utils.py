@@ -32,7 +32,7 @@ def int64_to_int(obj):
         return {k: int64_to_int(v) for k, v in obj.items()}
     elif isinstance(obj, list):
         return [int64_to_int(v) for v in obj]
-    elif isinstance(obj, np.int64):
+    elif isinstance(obj, (np.int64, np.int32)):
         return int(obj)
     else:
         return obj
