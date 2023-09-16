@@ -30,7 +30,7 @@ def generate_answer():
     if model == "gpt-3.5-turbo":
         response = get_gpt_3_5_turbo_response(
             messages=[
-                {"role": "user", "content": prompt + "\nRespond in a concise manner."}
+                {"role": "user", "content": prompt + "\nRespond in a concise manner and complete sentence(s)."}
             ]
         )
     else:
